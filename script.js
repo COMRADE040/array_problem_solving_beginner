@@ -51,3 +51,56 @@ for(const j of names){
     k = k + j
 }
 console.log(k)
+
+
+
+
+
+//problem no 4
+const statement = 'I am a Hard Working Person';
+
+let divided_by_string = statement.split(" ");
+let reverse_replace = divided_by_string.reverse()
+let adjustString = reverse_replace.join(" ")
+console.log(adjustString)
+
+
+
+
+
+
+//problem no 5
+const num = [1, 2, 3, 5, 10];
+const copiedArray = num;
+
+
+const s = copiedArray.splice(1)
+copiedArray[0] = 99
+console.log(copiedArray)
+console.log(num)
+
+
+
+
+
+
+
+//problem no 6
+const student = [
+    {name: "John", marks: 85},
+    {name: "Alice", marks: 95}
+]
+
+//method no 1
+for(let h of student){
+    console.log(h.name + " " + "scored "  + h.marks)
+}
+
+
+//method no 2
+for(let i = 0; i < student.length; i++){
+    console.log(student[i].name + " scored" +  " " + student[i].marks)
+}
+
+
+
