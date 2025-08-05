@@ -33,3 +33,21 @@ for(let i = 0; i < numbers.length; i++){
         console.log(numbers[i], "odd Number")
     }
 }
+
+
+
+
+
+//problem no 3
+var names = ['Tom', "Tim", "Tin", "Tik"];
+
+//method no 1
+var join = names.join('')
+console.log(join)
+
+//method no 2
+let k = ""
+for(const j of names){
+    k = k + j
+}
+console.log(k)
